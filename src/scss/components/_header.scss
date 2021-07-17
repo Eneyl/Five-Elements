@@ -1,0 +1,44 @@
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba($color: #3a3a3a, $alpha: 0.6);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    max-width: 1920px;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    font-family: "Poiret One";
+    font-size: 24px;
+    letter-spacing: 16.5%;
+    color: var(--color-white);
+  }
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+
+  &__item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    &:not(:last-child) {
+      margin-right: 35px;
+    }
+  }
+
+  &__link {
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: var(--color-white);
+  }
+}

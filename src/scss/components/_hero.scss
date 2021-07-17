@@ -1,0 +1,20 @@
+.hero {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 30px;
+  min-height: 598px;
+  background: url("../../img/group.jpg") center/cover no-repeat;
+
+  &__title {
+    margin: 0;
+    width: 839px;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-white);
+  }
+}
